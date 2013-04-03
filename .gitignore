@@ -1,0 +1,5 @@
+#Ignore List
+.project
+.settings
+simple-module-core/target
+simple-module-web/target

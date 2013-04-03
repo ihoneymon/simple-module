@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+	<context:property-placeholder properties-ref="defaultProperties"/>
+	
+	<util:properties id="defaultProperties">
+		<prop key="date.pattern">yyyy-MM-dd</prop>
+		
+		<prop key="database.class"></prop>
+		<prop key="database.url"></prop>
+		<prop key="database.username"></prop>
+		<prop key="database.password"></prop>
+		<prop key="hibernate.dialect"></prop>
+		<prop key="hibernate.hbm2ddl.auto"></prop>
+		<prop key="hibernate.show_sql"></prop>
+		<prop key="hibernate.format_sql"></prop>
+	</util:properties>
+
+</beans>
