@@ -1,7 +1,7 @@
 simple-module
 =============
 
-Spring Framework를 기본으로 해서 Hibernate 를 ORM 프레임워크로 사용하여 ORM으로 프로그래밍하기 위한 환경설정을 해둔 프로젝트다. 나중에 수월하게 가져다 쓰기 위한 필요한 것들을 구성해둔다. 여기에 필요한 기능들을 구현하면서 추가해나가면 된다.
+Spring Project(core, web) 모듈화되어 있는 템플릿 프로젝트 구성
 
 ### 모듈 구성 
 * simple-module-core : domain, service, repository 묶음
@@ -26,6 +26,3 @@ Spring Framework를 기본으로 해서 Hibernate 를 ORM 프레임워크로 사
     * Spring Web MVC
     * Apache Common File, IO
 
-### 목적
-    업무에 필요할 때 가져다 쓸 수 있는 Template 스프링 모듈 프로젝트 기록
-    
