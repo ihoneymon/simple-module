@@ -4,10 +4,12 @@
 
 #simple-module-core
 simple-module-core/target
+simple-module-core/bin
 simple-module-core/.classpath
 simple-module-core/.springBeans
 
 #simple-module-web
 simple-module-web/target
+simple-module-web/bin
 simple-module-web/.classpath
 simple-module-web/.springBeans
