@@ -11,3 +11,6 @@ simple-module-core/.springBeans
 simple-module-web/target
 simple-module-web/.classpath
 simple-module-web/.springBeans
+simple-module-core/simple-module-core.iml
+simple-module-web/simple-module-web.iml
+simple-module.iml
