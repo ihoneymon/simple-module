@@ -27,6 +27,7 @@
     </bean>
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="simple-module"/>
         <property name="dataSource" ref="dataSource" />
         <property name="packagesToScan" value="kr.pe.ihoney.module.domain"/>
         <property name="mappingResources">

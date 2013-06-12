@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!-- 메시지 처리를 위한 XML  -->
 <properties version="1.0">
-	<comment>Docs-Flow Message</comment>
+	<comment>Simple-Module Message</comment>
 
 
 </properties>

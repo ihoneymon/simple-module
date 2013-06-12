@@ -1,6 +1,7 @@
 #Ignore List
 .project
 .settings
+.idea
 
 #simple-module-core
 simple-module-core/target

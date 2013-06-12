@@ -5,6 +5,6 @@
 	version="2.0">
 
 	<!-- Hibernate persistenct-unit -->
-	<persistence-unit name="docs-flow" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="simple-module" transaction-type="RESOURCE_LOCAL" />
 
 </persistence>
