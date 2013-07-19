@@ -1,16 +1,20 @@
 #Ignore List
 .project
 .settings
+.idea
+simple-module-core.iml
+simple-module.iml
 
 #simple-module-core
+simple-module-core/simple-module-core.iml
+simple-module-core/.idea
 simple-module-core/target
 simple-module-core/.classpath
 simple-module-core/.springBeans
 
 #simple-module-web
+simple-module-web/simple-module-web.iml
+simple-module-web/.idea
 simple-module-web/target
 simple-module-web/.classpath
 simple-module-web/.springBeans
-simple-module-core/simple-module-core.iml
-simple-module-web/simple-module-web.iml
-simple-module.iml
