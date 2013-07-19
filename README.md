@@ -1,31 +1,39 @@
 simple-module
 =============
 
-Spring Framework를 기본으로 해서 Hibernate 를 ORM 프레임워크로 사용하여 ORM으로 프로그래밍하기 위한 환경설정을 해둔 프로젝트다. 나중에 수월하게 가져다 쓰기 위한 필요한 것들을 구성해둔다. 여기에 필요한 기능들을 구현하면서 추가해나가면 된다.
+> Spring Framework를 기본으로 해서 Hibernate 를 ORM 프레임워크로 사용하여 프로그래밍하기 위한 환경설정을  해둔 프로젝트다. 자유롭게 가져다가 변형하며 사용해도 된다.
 
-### 모듈 구성 
-* simple-module-core : domain, service, repository 묶음
-* simple-module-web : web, controller 묶음
+*****
 
-### simple-module-core
+## ◎ 모듈 구성 
+
+### ✔ simple-module-core
+* Used Framework & Libraries
+    * [Spring Framework](http://www.springsource.org/spring-framework)
+    * [Spring Data JPA](http://www.springsource.org/spring-data/jpa)
+    * [Hibernate](http://www.hibernate.org/)
+    * [QueryDSL](http://www.querydsl.com/)
+    * [Lombok](http://projectlombok.org/)
+    * [Apache POI](http://poi.apache.org/)
+    * [JavaMail](http://www.oracle.com/technetwork/java/javamail/index.html)
+    * [Google guava](https://code.google.com/p/guava-libraries/)
+    * [joda-time](http://joda-time.sourceforge.net/)
+    * [Thymeleaf](http://www.thymeleaf.org/)
+    * [ModelMapper](http://modelmapper.org/)
+    * [Apache Commons](http://commons.apache.org/)
 * 패키지 구성
-    * Spring Framework
-    * Spring Data JPA
-    * Hibernate
-    * QueryDSL
-    * AspectJ
-    * Lombok
-    * Apache POI
-    * StringTemplate
-    * JavaMail
-    * Google guava
-    * joda-time
+    * Domain
+    * Service
 
 ### simple-module-web
+* Used Framework & Libraries
+    * [Spring Framework](http://www.springsource.org/spring-framework)
+    * [Apache Commons](http://commons.apache.org/)
 * 패키지 구성
-    * Spring Web MVC
-    * Apache Common File, IO
+    * Controller
+
+*****
 
 ### 목적
-    업무에 필요할 때 가져다 쓸 수 있는 Template 스프링 모듈 프로젝트 기록
+    업무에 필요할 때 사용가능한 스프링 + 하이버네이트를 이용한 Template 프로젝트
     
